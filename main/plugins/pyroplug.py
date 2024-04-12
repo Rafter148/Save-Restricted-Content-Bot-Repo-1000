@@ -133,7 +133,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 progress=progress_for_pyrogram,
                 progress_args=(
                     client,
-                    "**__Unrestricting__: __[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)__**\n ",
+                    "**__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤__: __[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)__**\n ",
                     edit,
                     time.time()
                 )
