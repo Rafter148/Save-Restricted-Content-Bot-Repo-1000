@@ -174,7 +174,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     logging.info(e)
                     thumb_path = None
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__" if msg.caption else "__Unrestricted by **[Deadpool](https://t.me/+DGQfhgy65yxhYWU1)**__"
+                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__" if msg.caption else "__Unrestricted by **[Deadpool](https://t.me/+DGQfhgy65yxhYWU1)**__"
                 await client.send_video(
                     chat_id=sender,
                     video=path,
@@ -204,7 +204,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
 
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__" if msg.caption else "__Unrestricted by **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__"
+                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__" if msg.caption else "__Unrestricted by **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__"
                 await upm.edit("__Uploading photo...__")
 
                 await bot.send_file(sender, path, caption=caption)
@@ -220,7 +220,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
                 thumb_path=thumbnail(sender)
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__" if msg.caption else "__Unrestricted by **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__"
+                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__" if msg.caption else "__Unrestricted by **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__"
                 await client.send_document(
                     sender,
                     path, 
