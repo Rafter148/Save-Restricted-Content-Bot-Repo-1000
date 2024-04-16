@@ -35,10 +35,10 @@ ids = []
 async def _batch(event):
     s = False
     if f'{event.sender_id}' in batch:
-        return await event.reply("You've already started one batch, wait for it to complete you dumbfuck owner!")
+        return await event.reply("𝗬𝗼𝘂'𝘃𝗲 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝘀𝘁𝗮𝗿𝘁𝗲𝗱 𝗼𝗻𝗲 𝗯𝗮𝘁𝗰𝗵, 𝘄𝗮𝗶𝘁 𝗳𝗼𝗿 𝗶𝘁 𝘁𝗼 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗲 𝘆𝗼𝘂 𝗱𝘂𝗺𝗯𝗳𝘂𝗰𝗸 𝗼𝘄𝗻𝗲𝗿!")
     async with gagan.conversation(event.chat_id) as conv: 
         if not s:
-            await conv.send_message(f"Send me the message link you want to start saving from, as a reply to this message.", buttons=Button.force_reply())
+            await conv.send_message(f"𝗦𝗲𝗻𝗱 𝗺𝗲 𝘁𝗵𝗲 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗹𝗶𝗻𝗸 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁 𝘁𝗼 𝘀𝘁𝗮𝗿𝘁 𝘀𝗮𝘃𝗶𝗻𝗴 𝗳𝗿𝗼𝗺, 𝗮𝘀 𝗮 𝗿𝗲𝗽𝗹𝘆 𝘁𝗼 𝘁𝗵𝗶𝘀 𝗺𝗲𝘀𝘀𝗮𝗴𝗲.", buttons=Button.force_reply())
             try:
                 link = await conv.get_reply()
                 try:
@@ -49,7 +49,7 @@ async def _batch(event):
                 #print(e)
                 logger.info(e)
                 return await conv.send_message("Cannot wait more longer for your response!")
-            await conv.send_message(f"Send me the number of files/range you want to save from the given message, as a reply to this message.", buttons=Button.force_reply())
+            await conv.send_message(f"𝗦𝗲𝗻𝗱 𝗺𝗲 𝘁𝗵𝗲 𝗻𝘂𝗺𝗯𝗲𝗿 𝗼𝗳 𝗳𝗶𝗹𝗲𝘀/𝗿𝗮𝗻𝗴𝗲 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁 𝘁𝗼 𝘀𝗮𝘃𝗲 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗴𝗶𝘃𝗲𝗻 𝗺𝗲𝘀𝘀𝗮𝗴𝗲, 𝗮𝘀 𝗮 𝗿𝗲𝗽𝗹𝘆 𝘁𝗼 𝘁𝗵𝗶𝘀 𝗺𝗲𝘀𝘀𝗮𝗴𝗲.", buttons=Button.force_reply())
             try:
                 _range = await conv.get_reply()
             except Exception as e:
@@ -59,7 +59,7 @@ async def _batch(event):
             try:
                 value = int(_range.text)
                 if value > 1000000:
-                    return await conv.send_message("You can only get upto 100000 files in a single batch.")
+                    return await conv.send_message("𝗬𝗼𝘂 𝗰𝗮𝗻 𝗼𝗻𝗹𝘆 𝗴𝗲𝘁 𝘂𝗽𝘁𝗼 100000 😳❤️🥀 𝗳𝗶𝗹𝗲𝘀 𝗶𝗻 𝗮 𝘀𝗶𝗻𝗴𝗹𝗲 𝗯𝗮𝘁𝗰𝗵.")
             except ValueError:
                 return await conv.send_message("Range must be an integer!")
             for i in range(value):
@@ -75,7 +75,7 @@ async def _batch(event):
             try: 
                 if co == -2:
                     await Bot.send_message(event.sender_id, "Batch successfully completed!")
-                    await cd.edit(f"**Batch process ongoing.**\n\nProcess completed: {value} \n\n Batch successfully completed! ")
+                    await cd.edit(f"**Batch process ongoing.**\n\nProcess completed: {value} \n\n 𝗕𝗔𝗧𝗖𝗛 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗! ")
             except:
                 await Bot.send_message(event.sender_id, "ERROR!\n\n maybe last msg didnt exist yet")
             conv.cancel()
@@ -92,22 +92,23 @@ async def run_batch(userbot, client, sender, countdown, link):
     for i in range(len(ids)):
         timer = 35
         if i < 250:
-            timer = 30
+            timer = 15
         elif i < 1000 and i > 100:
-            timer = 40
+            timer = 15
         elif i < 10000 and i > 1000:
-            timer = 45
+            timer = 15
         elif i < 50000 and i > 10000:
-            timer = 50
+            timer = 15
         elif i < 100000 and i > 50000:
-            timer = 55
+            timer = 15
         elif i < 200000 and i > 100000:
-            timer = 60
+            timer = 15
         elif i < 1000000: 
-            timer = 65
+            timer = 15
+
         
         if 't.me/c/' not in link:
-            timer = 15 if i < 500 else 30
+            timer = 15 if i < 500 else 15
         try: 
             count_down = f"**Batch process ongoing.**\n\nProcess completed: {i+1}"
             #a =ids[i]
@@ -122,11 +123,11 @@ async def run_batch(userbot, client, sender, countdown, link):
             await get_bulk_msg(userbot, client, sender, link, integer)
             protection = await client.send_message(sender, f"Sleeping for `{timer}` seconds to avoid Floodwaits and Protect account!")
             await countdown.edit(count_down, 
-                                 buttons=[[Button.url("Join Channel", url="https://t.me/hemubot148")]])
+                                 buttons=[[Button.url("Join Channel", url="https://t.me/hemendra148")]])
             await asyncio.sleep(timer)
             await protection.delete()
         except IndexError as ie:
-            await client.send_message(sender, f" {i}  {ie}  \n\nBatch ended completed!")
+            await client.send_message(sender, f" {i}  {ie}  \n\n𝗕𝗔𝗧𝗖𝗛 𝗘𝗡𝗗𝗘𝗗 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗!")
             await countdown.delete()
             break
         except FloodWait as fw:
@@ -145,13 +146,13 @@ async def run_batch(userbot, client, sender, countdown, link):
                     #print(e)
                     logger.info(e)
                     if countdown.text != count_down:
-                        await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/hemubot148")]])
+                        await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/hemendra148")]])
         except Exception as e:
             #print(e)
             logger.info(e)
             await client.send_message(sender, f"An error occurred during cloning, batch will continue.\n\n**Error:** {str(e)}")
             if countdown.text != count_down:
-                await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/hemubot148")]])
+                await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/hemendra148")]])
         n = i + 1
         if n == len(ids):
             return -2
@@ -166,7 +167,7 @@ async def start_command(event):
     buttons = [
         [Button.inline("Cancel", data="cancel"),
          Button.inline("Cancel", data="cancel")],
-        [Button.url("Join Channel", url="https://t.me/hemubot148")]
+        [Button.url("Join Channel", url="https://t.me/hemendra148")]
     ]
 
     # Sending photo with caption and buttons
@@ -181,7 +182,7 @@ TEXTING = """
 ```
 Execute /batch command only when you 100% sure.
 Bcz /cancel event is removed to make bot work perfectly.
-Thanks - Team SPY
+Thanks - Team 『𝗛𝗘𝗠𝗨』
 
 ```
 """
