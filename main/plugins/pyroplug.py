@@ -41,10 +41,10 @@ async def check(userbot, client, link):
             await userbot.get_messages(chat, msg_id)
             return True, None
         except ValueError:
-            return False, "**Invalid Link!**"
+            return False, "**🅸🅽🆅🅰🅻🅸🅳 🅻🅸🅽🅺!**"
         except Exception as e:
             logging.info(e)
-            return False, "Have you joined the channel?"
+            return False, "𝗛𝗔𝗩𝗘 𝗬𝗢𝗨 𝗝𝗢𝗜𝗡𝗘𝗗 𝗧𝗛𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟?"
     else:
         try:
             chat = str(link.split("/")[-2])
@@ -59,7 +59,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
     chat = ""
     msg_id = int(i)
     if msg_id == -1:
-        await client.edit_message_text(sender, edit_id, "**Invalid Link!**")
+        await client.edit_message_text(sender, edit_id, "**𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗟𝗜𝗡𝗞 𝗟𝗢𝗟🫠❤️!**")
         return None
     if 't.me/c/'  in msg_link or 't.me/b/' in msg_link:
         
@@ -133,7 +133,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 progress=progress_for_pyrogram,
                 progress_args=(
                     client,
-                    "**__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤__: __[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)__**\n ",
+                    "**__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤__: __[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)__**\n ",
                     edit,
                     time.time()
                 )
@@ -174,7 +174,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     logging.info(e)
                     thumb_path = None
                 
-                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__" if msg.caption else "__Unrestricted by **[Deadpool](https://t.me/+DGQfhgy65yxhYWU1)**__"
+                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)**__" if msg.caption else "__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 **[『𝗛𝗘𝗠𝗨』](https://t.me/+nr3UBRp6uhA5Y2Vl)**__"
                 await client.send_video(
                     chat_id=sender,
                     video=path,
@@ -187,7 +187,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**__Uploading: [『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)__**\n ',
+                        '**__Uploading: [『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)__**\n ',
                         upm,
                         time.time()
                     )
@@ -204,7 +204,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
 
                 
-                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__" if msg.caption else "__Unrestricted by **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__"
+                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)**__" if msg.caption else "__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)**__"
                 await upm.edit("__Uploading photo...__")
 
                 await bot.send_file(sender, path, caption=caption)
@@ -220,7 +220,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
                 thumb_path=thumbnail(sender)
                 
-                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__" if msg.caption else "__Unrestricted by **[『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)**__"
+                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)**__" if msg.caption else "__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)**__"
                 await client.send_document(
                     sender,
                     path, 
@@ -229,7 +229,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**__Uploading:__**\n**__Bot made by [『𝗛𝗘𝗠𝗨』](https://t.me/hemubot148)__**',
+                        '**__Uploading:__**\n**__Bot made by [『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)__**',
                         upm,
                         time.time()
                     )
