@@ -14,27 +14,27 @@
     "env": {
             "API_HASH": {
             "description": "Your API HASH from my.telegram.org",
-            "value": "8d5171c23fd1836db908b8739d288336"
+            "value": "34ade52147ebcaf4bc0b88aa3dfc7e1a"
         },
         "API_ID": {
             "description": "Your API ID from my.telegram.org",
-            "value": "27006142"
+            "value": "28660719"
         },
         "BOT_TOKEN": {
             "description": "Bot token, get it from @BotFather.",
-            "value": "6505425924:AAEiyZZzj6jfk1sNoUvqT5O2fksvxZW0BSg"
+            "value": "6597965834:AAE440kpQ__sdTU8EO_IbFu7dC9TXJ21FhI"
         },
         "SESSION": {
             "description": "Pyrogram string session.",
-            "value": "BQGcFL4AQ6dboWAe-bISRW6JlfWI0KxTjtRHTeg0u1rg8yjFVbeloAEfs9AMhNxsFhBuNkDyK8R4PLOT_ostxsTHddU6EyOCkm0h-J020kQPB6yCkbnnm4UrFacp2WYRaJID0BZD4H_x3gp77jWbL0TrP-vQ7vcIouMrNTNJPPGuf4bBP5Q4dpo7kE6MqKrGyeqQqK9Zh5jRRqQ5HDLvcktWYKicXKAiVVxLAkTRdiwDWGQ3cLDuqHQYQjNNVdAAZ2L9n-hXd56sVqxl2V1AHTtmyotuVcYLHbrrQ_4QqEoWSd2WDoK5ne4QLgBlB-RqLJZmnhBHeaooLAQqoeGE5NNKyXZtEQAAAABrL7uFAA"
+            "value": "BQGcFL4AQ6dboWAe-AQG1U-8Aq7w5aQn3MMbjo9G49A264xLvNC6zAnNS8YyJemAhp6TUfzLLJH5PlbPt7hko-h5qPwqxsRmaGIwwL0D4jI0R4sYUVTeWw1wqjqXm2W1mhK73t0i3DneK0W0pwuSk6xXDjrNk1GbqGb8UqlwS_YaM9EYEYFEFGAJCh7QjmIDEesKS_T5rigM3G3BlRo659GhPsRL90zRoKubHUnIOX6UIPzKINUctyIjAUHKNmIFj6hthAJ-YEbWeAXlvjMXGQvgaqkSIZxIOSapt8lqcsY8IasCfQABiVAaRtsAHaYNi5JCaQJm9E5NpoGYSbihToyZw-QBQ89_q50Bsfn_u38EUaQAAAAGQwlG3AA-J020kQPB6yCkbnnm4UrFacp2WYRaJID0BZD4H_x3gp77jWbL0TrP-vQ7vcIouMrNTNJPPGuf4bBP5Q4dpo7kE6MqKrGyeqQqK9Zh5jRRqQ5HDLvcktWYKicXKAiVVxLAkTRdiwDWGQ3cLDuqHQYQjNNVdAAZ2L9n-hXd56sVqxl2V1AHTtmyotuVcYLHbrrQ_4QqEoWSd2WDoK5ne4QLgBlB-RqLJZmnhBHeaooLAQqoeGE5NNKyXZtEQAAAABrL7uFAA"
         },
         "AUTH": {
             "description": "User ID of Bot owner.",
-            "value": "1798290309"
+            "value": "6723621303"
         },
         "FORCESUB": {
             "description": "Username name of public channel without using '@'.",
-            "value": "hemubot148"
+            "value": "hemendra148"
         }
     },
     "stack": "container"
