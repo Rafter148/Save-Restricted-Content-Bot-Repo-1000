@@ -25,7 +25,7 @@ logging.getLogger("telethon").setLevel(logging.INFO)
 
 ft = f"To use this bot you've to join @{fs}."
 
-message = "Send me the message link you want to start saving from, as a reply to this message."
+message = "𝐒𝐄𝐍𝐃 𝐌𝐄 𝐓𝐇𝐄 𝐌𝐄𝐒𝐒𝐀𝐆𝐄 𝐋𝐈𝐍𝐊 𝐘𝐎𝐔 𝐖𝐀𝐍𝐓 𝐓𝐎 𝐒𝐓𝐀𝐑𝐓 𝐒𝐀𝐕𝐈𝐍𝐆 𝐅𝐑𝐎𝐌, 𝐀𝐒 𝐀 𝐑𝐄𝐏𝐋𝐘 𝐓𝐎 𝐓𝐇𝐈𝐒 𝐌𝐄𝐒𝐒𝐀𝐆𝐄."
           
 process=[]
 timer=[]
@@ -73,7 +73,7 @@ async def clone(event):
             file_name = file_name.strip()                
         try:
             if 't.me/' not in link:
-                await edit.edit("invalid link")
+                await edit.edit("𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗟𝗜𝗡𝗞")
                 ind = user.index(f'{int(event.sender_id)}')
                 user.pop(int(ind))
                 return
