@@ -131,12 +131,12 @@ async def run_batch(userbot, client, sender, countdown, link):
             await countdown.delete()
             break
         except FloodWait as fw:
-            if int(fw.value) > 300:
+            if int(fw.value) > 500:
                 await client.send_message(sender, f'You have floodwaits of {fw.value} seconds, cancelling batch') 
                 ids.clear()
                 break
             else:
-                fw_alert = await client.send_message(sender, f'Sleeping for {fw.value + 5} second(s) due to telegram flooodwait.')
+                fw_alert = await client.send_message(sender, f'Sleeping for {fw.value + 0} second(s) due to telegram flooodwait.')
                 ors = fw.value + 5
                 await asyncio.sleep(ors)
                 await fw_alert.delete()
