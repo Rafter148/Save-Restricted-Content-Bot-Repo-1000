@@ -108,7 +108,7 @@ async def run_batch(userbot, client, sender, countdown, link):
 
         
         if 't.me/c/' not in link:
-            timer = 15 if i < 500 else 15
+            timer = 15 if i < 500 else 30
         try: 
             count_down = f"**Batch process ongoing.**\n\nProcess completed: {i+1}"
             #a =ids[i]
@@ -131,7 +131,7 @@ async def run_batch(userbot, client, sender, countdown, link):
             await countdown.delete()
             break
         except FloodWait as fw:
-            if int(fw.value) > 500:
+            if int(fw.value) > 300:
                 await client.send_message(sender, f'You have floodwaits of {fw.value} seconds, cancelling batch') 
                 ids.clear()
                 break
