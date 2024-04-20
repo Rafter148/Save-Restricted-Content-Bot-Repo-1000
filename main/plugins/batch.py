@@ -1,4 +1,4 @@
-#Join t.me/hemendra148
+#Join t.me/hemendraa148
 
 import logging
 import time, os, asyncio
@@ -70,7 +70,7 @@ async def _batch(event):
                 return
             batch.append(f'{event.sender_id}')
             cd = await conv.send_message("**Batch process ongoing...**\n\nProcess completed: ", 
-                                    buttons=[[Button.url("Join Channel", url="https://t.me/hemubot148")]])
+                                    buttons=[[Button.url("Join Channel", url="https://t.me/hemendraa148")]])
             co = await run_batch(userbot, Bot, event.sender_id, cd, _link) 
             try: 
                 if co == -2:
@@ -146,13 +146,13 @@ async def run_batch(userbot, client, sender, countdown, link):
                     #print(e)
                     logger.info(e)
                     if countdown.text != count_down:
-                        await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/hemendra148")]])
+                        await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/hemendraa148")]])
         except Exception as e:
             #print(e)
             logger.info(e)
             await client.send_message(sender, f"An error occurred during cloning, batch will continue.\n\n**Error:** {str(e)}")
             if countdown.text != count_down:
-                await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/hemendra148")]])
+                await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/hemendraa148")]])
         n = i + 1
         if n == len(ids):
             return -2
@@ -167,7 +167,7 @@ async def start_command(event):
     buttons = [
         [Button.inline("Cancel", data="cancel"),
          Button.inline("Cancel", data="cancel")],
-        [Button.url("Join Channel", url="https://t.me/hemendra148")]
+        [Button.url("Join Channel", url="https://t.me/hemendraa148")]
     ]
 
     # Sending photo with caption and buttons
