@@ -1,4 +1,4 @@
-# Join t.me/hemendra148
+# Join t.me/hemendraa148
 
 import asyncio, time, os
 
@@ -133,7 +133,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 progress=progress_for_pyrogram,
                 progress_args=(
                     client,
-                    "**__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤__: __[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)__**\n ",
+                    "**__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤__: __[『𝗛𝗘𝗠𝗨』](https://t.me/hemendraa148)__**\n ",
                     edit,
                     time.time()
                 )
@@ -141,7 +141,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
           
             path = file
             await edit.delete()
-            upm = await client.send_message(sender, '__Preparing to Upload!__')
+            upm = await client.send_message(sender, '__𝗣𝗿𝗲𝗽𝗮𝗿𝗶𝗻𝗴 𝘁𝗼 𝗨𝗽𝗹𝗼𝗮𝗱!__')
             
             caption = str(file)
             if msg.caption is not None:
@@ -174,7 +174,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     logging.info(e)
                     thumb_path = None
                 
-                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)**__" if msg.caption else "__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 **[『𝗛𝗘𝗠𝗨』](https://t.me/+nr3UBRp6uhA5Y2Vl)**__"
+                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendraa148)**__" if msg.caption else "__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 **[『𝗛𝗘𝗠𝗨』](https://t.me/+Ygn-6u5Qw4lkNzk1)**__"
                 await client.send_video(
                     chat_id=sender,
                     video=path,
@@ -187,7 +187,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**__Uploading: [『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)__**\n ',
+                        '**__Uploading: [『𝗛𝗘𝗠𝗨』](https://t.me/hemendraa148)__**\n ',
                         upm,
                         time.time()
                     )
@@ -204,7 +204,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
 
                 
-                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)**__" if msg.caption else "__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)**__"
+                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendraa148)**__" if msg.caption else "__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendraa148)**__"
                 await upm.edit("__Uploading photo...__")
 
                 await bot.send_file(sender, path, caption=caption)
@@ -220,7 +220,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
                 thumb_path=thumbnail(sender)
                 
-                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)**__" if msg.caption else "__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)**__"
+                caption = f"{msg.caption}\n\n__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendraa148)**__" if msg.caption else "__𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 **[『𝗛𝗘𝗠𝗨』](https://t.me/hemendraa148)**__"
                 await client.send_document(
                     sender,
                     path, 
@@ -229,7 +229,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**__Uploading:__**\n**__Bot made by [『𝗛𝗘𝗠𝗨』](https://t.me/hemendra148)__**',
+                        '**__Uploading:__**\n**__Bot made by [『𝗛𝗘𝗠𝗨』](https://t.me/hemendraa148)__**',
                         upm,
                         time.time()
                     )
