@@ -10,7 +10,7 @@
     ],
     "repository": "https://github.com/Vijaysingh147/save_restricted-content-telegram-bot-repo",
     "website": "",
-    "success_url": "https://t.me/hemubot148",
+    "success_url": "https://t.me/hemendraa148",
     "env": {
             "API_HASH": {
             "description": "Your API HASH from my.telegram.org",
@@ -22,11 +22,11 @@
         },
         "BOT_TOKEN": {
             "description": "Bot token, get it from @BotFather.",
-            "value": "6597965834:AAE440kpQ__sdTU8EO_IbFu7dC9TXJ21FhI"
+            "value": "6417538045:AAEpPyYvBMZ2UHfz3qcqL8fmBmdWrJnwNOo"
         },
         "SESSION": {
             "description": "Pyrogram string session.",
-            "value": "BQGcFL4AQ6dboWAe-AQG1U-8Aq7w5aQn3MMbjo9G49A264xLvNC6zAnNS8YyJemAhp6TUfzLLJH5PlbPt7hko-h5qPwqxsRmaGIwwL0D4jI0R4sYUVTeWw1wqjqXm2W1mhK73t0i3DneK0W0pwuSk6xXDjrNk1GbqGb8UqlwS_YaM9EYEYFEFGAJCh7QjmIDEesKS_T5rigM3G3BlRo659GhPsRL90zRoKubHUnIOX6UIPzKINUctyIjAUHKNmIFj6hthAJ-YEbWeAXlvjMXGQvgaqkSIZxIOSapt8lqcsY8IasCfQABiVAaRtsAHaYNi5JCaQJm9E5NpoGYSbihToyZw-QBQ89_q50Bsfn_u38EUaQAAAAGQwlG3AA-J020kQPB6yCkbnnm4UrFacp2WYRaJID0BZD4H_x3gp77jWbL0TrP-vQ7vcIouMrNTNJPPGuf4bBP5Q4dpo7kE6MqKrGyeqQqK9Zh5jRRqQ5HDLvcktWYKicXKAiVVxLAkTRdiwDWGQ3cLDuqHQYQjNNVdAAZ2L9n-hXd56sVqxl2V1AHTtmyotuVcYLHbrrQ_4QqEoWSd2WDoK5ne4QLgBlB-RqLJZmnhBHeaooLAQqoeGE5NNKyXZtEQAAAABrL7uFAA"
+            "value": "AQG1U-8ANEUNyejsWn1k6FrKiHVZdt59lG7zPc19bYGQs_PFzK8tT9xT-rDCcs3OTLAAyrDhY52AqCvRkRU1xRW9ePj-NQiuQ0prgAnVtWKHdfWsuKWiK54HFTDkT3yBiHXTudKYKser_iGT8EL19xAIFBEaEutONdCmHl7gCeiafxy12EZcYfSJ8ubptzN1absNWpgwkc04ddF_wn4Q-gL46Zj5ADBgEyN-KTBM-NQABrD78GoHpI1h5dDjD2XxJMFY8i9l2PZpRrIHI9VUWb7r6sXi_U7NInq1ed42jX3rGBqnR5kJ3mrRAog6pCV0H_PzGog1C43_ZJ_77ySWRGBAKKcjNwAAAAGQwlG3AA"
         },
         "AUTH": {
             "description": "User ID of Bot owner.",
@@ -34,7 +34,7 @@
         },
         "FORCESUB": {
             "description": "Username name of public channel without using '@'.",
-            "value": "hemendra148"
+            "value": "hemendraa148"
         }
     },
     "stack": "container"
