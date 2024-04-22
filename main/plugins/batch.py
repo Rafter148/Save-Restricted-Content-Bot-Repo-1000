@@ -94,17 +94,17 @@ async def run_batch(userbot, client, sender, countdown, link):
         if i < 250:
             timer = 20
         elif i < 1000 and i > 100:
-            timer = 21
+            timer = 25
         elif i < 10000 and i > 1000:
-            timer = 24
+            timer = 27
         elif i < 50000 and i > 10000:
-            timer = 26
+            timer = 29
         elif i < 100000 and i > 50000:
-            timer = 28
-        elif i < 200000 and i > 100000:
             timer = 30
+        elif i < 200000 and i > 100000:
+            timer = 33
         elif i < 1000000: 
-            timer = 32
+            timer = 35
 
         
         if 't.me/c/' not in link:
