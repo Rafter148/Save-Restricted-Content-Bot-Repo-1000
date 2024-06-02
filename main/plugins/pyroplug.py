@@ -187,7 +187,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**__Uploading: [『𝗥𝗔𝗝𝗔𝗡』](https://t.me/hemendraa148)__**\n ',
+                        '**__Uploading: [『𝗥𝗔𝗝𝗔𝗡』](https://t.me/DIFTANSIR)__**\n ',
                         upm,
                         time.time()
                     )
