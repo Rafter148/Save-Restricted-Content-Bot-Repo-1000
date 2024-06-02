@@ -70,7 +70,7 @@ async def _batch(event):
                 return
             batch.append(f'{event.sender_id}')
             cd = await conv.send_message("**Batch process ongoing...**\n\nProcess completed: ", 
-                                    buttons=[[Button.url("Join Channel", url="https://t.me/hemendraa148")]])
+                                    buttons=[[Button.url("Join Channel", url="https://t.me/DIFTANSIR")]])
             co = await run_batch(userbot, Bot, event.sender_id, cd, _link) 
             try: 
                 if co == -2:
@@ -123,7 +123,7 @@ async def run_batch(userbot, client, sender, countdown, link):
             await get_bulk_msg(userbot, client, sender, link, integer)
             protection = await client.send_message(sender, f"Sleeping for `{timer}` seconds to avoid Floodwaits and Protect account!")
             await countdown.edit(count_down, 
-                                 buttons=[[Button.url("Join Channel", url="https://t.me/hemendra148")]])
+                                 buttons=[[Button.url("Join Channel", url="https://t.me/DIFTANSIR")]])
             await asyncio.sleep(timer)
             await protection.delete()
         except IndexError as ie:
@@ -146,13 +146,13 @@ async def run_batch(userbot, client, sender, countdown, link):
                     #print(e)
                     logger.info(e)
                     if countdown.text != count_down:
-                        await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/hemendraa148")]])
+                        await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/DIFTANSIR")]])
         except Exception as e:
             #print(e)
             logger.info(e)
             await client.send_message(sender, f"An error occurred during cloning, batch will continue.\n\n**Error:** {str(e)}")
             if countdown.text != count_down:
-                await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/hemendraa148")]])
+                await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/DIFTANSIR")]])
         n = i + 1
         if n == len(ids):
             return -2
@@ -167,7 +167,7 @@ async def start_command(event):
     buttons = [
         [Button.inline("Cancel", data="cancel"),
          Button.inline("Cancel", data="cancel")],
-        [Button.url("Join Channel", url="https://t.me/hemendraa148")]
+        [Button.url("Join Channel", url="https://t.me/DIFTANSIR")]
     ]
 
     # Sending photo with caption and buttons
