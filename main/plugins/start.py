@@ -5,7 +5,7 @@ from telethon.tl.types import InputMediaPhoto
 
 S = "/start"
 START_PIC = "https://graph.org/file/05be568f195e32e75f32f.jpg"
-TEXT = "𝗦𝗘𝗡𝗗 𝗠𝗘 𝗧𝗛𝗘 𝗟𝗜𝗡𝗞 𝗢𝗙 𝗔𝗡𝗬 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗢𝗙 𝗥𝗘𝗦𝗧𝗥𝗜𝗖𝗧𝗘𝗗 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 𝗧𝗢 𝗖𝗟𝗢𝗡𝗘 𝗜𝗧 𝗛𝗘𝗥𝗘\n𝗙𝗢𝗥 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟'𝗦 𝗠𝗘𝗦𝗦𝗔𝗚𝗘𝗦, 𝗦𝗘𝗡𝗗 𝗧𝗛𝗘 𝗜𝗡𝗩𝗜𝗧𝗘 𝗟𝗜𝗡𝗞 𝗙𝗜𝗥𝗦𝗧\n\n👉🏻𝗘𝗫𝗘𝗖𝗨𝗧𝗘 /batch 𝗙𝗢𝗥 𝗕𝗨𝗟𝗞 𝗣𝗥𝗢𝗖𝗘𝗦𝗦 𝗨𝗣𝗧𝗢 10𝗞 𝗙𝗜𝗟𝗘𝗦 𝗥𝗔𝗡𝗚𝗘.\n\n    𝗧𝗛𝗜𝗦 𝗕𝗢𝗔𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬\n\n 🌹✴️ [ 🇭 🇪 🇲 🇺  ] ✴️🌹\n    𝗝𝗢𝗜𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n         @Hemendra148"
+TEXT = "𝗦𝗘𝗡𝗗 𝗠𝗘 𝗧𝗛𝗘 𝗟𝗜𝗡𝗞 𝗢𝗙 𝗔𝗡𝗬 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗢𝗙 𝗥𝗘𝗦𝗧𝗥𝗜𝗖𝗧𝗘𝗗 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 𝗧𝗢 𝗖𝗟𝗢𝗡𝗘 𝗜𝗧 𝗛𝗘𝗥𝗘\n𝗙𝗢𝗥 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗖𝗛𝗔𝗡𝗡𝗘𝗟'𝗦 𝗠𝗘𝗦𝗦𝗔𝗚𝗘𝗦, 𝗦𝗘𝗡𝗗 𝗧𝗛𝗘 𝗜𝗡𝗩𝗜𝗧𝗘 𝗟𝗜𝗡𝗞 𝗙𝗜𝗥𝗦𝗧\n\n👉🏻𝗘𝗫𝗘𝗖𝗨𝗧𝗘 /batch 𝗙𝗢𝗥 𝗕𝗨𝗟𝗞 𝗣𝗥𝗢𝗖𝗘𝗦𝗦 𝗨𝗣𝗧𝗢 10𝗞 𝗙𝗜𝗟𝗘𝗦 𝗥𝗔𝗡𝗚𝗘.\n\n    𝗧𝗛𝗜𝗦 𝗕𝗢𝗔𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬\n\n 🌹✴️ [ 🇭 🇪 🇲 🇺  ] ✴️🌹\n    𝗝𝗢𝗜𝗡 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n         @DIFTANSIR"
 
 def is_set_button(data):
     return data == "set"
@@ -52,7 +52,7 @@ async def start_command(event):
     buttons = [
         [Button.inline("SET THUMB", data="set"),
          Button.inline("REM THUMB", data="rem")],
-        [Button.url("Join Channel", url="https://t.me/+Ygn-6u5Qw4lkNzk1")]
+        [Button.url("Join Channel", url="https://t.me/DIFTANSIR")]
     ]
 
     # Sending photo with caption and buttons
